@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176658391C7EC30F001B12B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 176658381C7EC30F001B12B3 /* main.m */; };
+		1766583C1C7EC30F001B12B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1766583B1C7EC30F001B12B3 /* AppDelegate.m */; };
+		1766583F1C7EC30F001B12B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1766583E1C7EC30F001B12B3 /* ViewController.m */; };
+		176658421C7EC30F001B12B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176658401C7EC30F001B12B3 /* Main.storyboard */; };
+		176658471C7EC310001B12B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176658451C7EC310001B12B3 /* LaunchScreen.storyboard */; };
+		176658571C7EC326001B12B3 /* AnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 176658511C7EC326001B12B3 /* AnimationTool.m */; };
+		176658581C7EC326001B12B3 /* XAwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 176658531C7EC326001B12B3 /* XAwesomeMenu.m */; };
+		176658591C7EC326001B12B3 /* XMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 176658551C7EC326001B12B3 /* XMenuItem.m */; };
+		1766585A1C7EC326001B12B3 /* XMenuUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 176658561C7EC326001B12B3 /* XMenuUtility.m */; };
+		1766585C1C7EC3D1001B12B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1766585B1C7EC3D1001B12B3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		176658341C7EC30F001B12B3 /* XAwesomeMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XAwesomeMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		176658381C7EC30F001B12B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1766583A1C7EC30F001B12B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1766583B1C7EC30F001B12B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1766583D1C7EC30F001B12B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1766583E1C7EC30F001B12B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		176658411C7EC30F001B12B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		176658461C7EC310001B12B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		176658481C7EC310001B12B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176658501C7EC326001B12B3 /* AnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTool.h; sourceTree = "<group>"; };
+		176658511C7EC326001B12B3 /* AnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTool.m; sourceTree = "<group>"; };
+		176658521C7EC326001B12B3 /* XAwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAwesomeMenu.h; sourceTree = "<group>"; };
+		176658531C7EC326001B12B3 /* XAwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAwesomeMenu.m; sourceTree = "<group>"; };
+		176658541C7EC326001B12B3 /* XMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMenuItem.h; sourceTree = "<group>"; };
+		176658551C7EC326001B12B3 /* XMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMenuItem.m; sourceTree = "<group>"; };
+		176658561C7EC326001B12B3 /* XMenuUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMenuUtility.m; sourceTree = "<group>"; };
+		1766585B1C7EC3D1001B12B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		176658311C7EC30F001B12B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1766582B1C7EC30F001B12B3 = {
+			isa = PBXGroup;
+			children = (
+				176658361C7EC30F001B12B3 /* XAwesomeMenu */,
+				176658351C7EC30F001B12B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		176658351C7EC30F001B12B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176658341C7EC30F001B12B3 /* XAwesomeMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176658361C7EC30F001B12B3 /* XAwesomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1766584E1C7EC326001B12B3 /* XAWesomeMenu */,
+				1766583A1C7EC30F001B12B3 /* AppDelegate.h */,
+				1766583B1C7EC30F001B12B3 /* AppDelegate.m */,
+				1766583D1C7EC30F001B12B3 /* ViewController.h */,
+				1766583E1C7EC30F001B12B3 /* ViewController.m */,
+				1766585B1C7EC3D1001B12B3 /* Assets.xcassets */,
+				176658401C7EC30F001B12B3 /* Main.storyboard */,
+				176658451C7EC310001B12B3 /* LaunchScreen.storyboard */,
+				176658481C7EC310001B12B3 /* Info.plist */,
+				176658371C7EC30F001B12B3 /* Supporting Files */,
+			);
+			path = XAwesomeMenu;
+			sourceTree = "<group>";
+		};
+		176658371C7EC30F001B12B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				176658381C7EC30F001B12B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1766584E1C7EC326001B12B3 /* XAWesomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1766584F1C7EC326001B12B3 /* XAnimationTool */,
+				176658521C7EC326001B12B3 /* XAwesomeMenu.h */,
+				176658531C7EC326001B12B3 /* XAwesomeMenu.m */,
+				176658541C7EC326001B12B3 /* XMenuItem.h */,
+				176658551C7EC326001B12B3 /* XMenuItem.m */,
+				176658561C7EC326001B12B3 /* XMenuUtility.m */,
+			);
+			path = XAWesomeMenu;
+			sourceTree = "<group>";
+		};
+		1766584F1C7EC326001B12B3 /* XAnimationTool */ = {
+			isa = PBXGroup;
+			children = (
+				176658501C7EC326001B12B3 /* AnimationTool.h */,
+				176658511C7EC326001B12B3 /* AnimationTool.m */,
+			);
+			path = XAnimationTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		176658331C7EC30F001B12B3 /* XAwesomeMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1766584B1C7EC310001B12B3 /* Build configuration list for PBXNativeTarget "XAwesomeMenu" */;
+			buildPhases = (
+				176658301C7EC30F001B12B3 /* Sources */,
+				176658311C7EC30F001B12B3 /* Frameworks */,
+				176658321C7EC30F001B12B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XAwesomeMenu;
+			productName = XAwesomeMenu;
+			productReference = 176658341C7EC30F001B12B3 /* XAwesomeMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1766582C1C7EC30F001B12B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = weelh;
+				TargetAttributes = {
+					176658331C7EC30F001B12B3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1766582F1C7EC30F001B12B3 /* Build configuration list for PBXProject "XAwesomeMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1766582B1C7EC30F001B12B3;
+			productRefGroup = 176658351C7EC30F001B12B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				176658331C7EC30F001B12B3 /* XAwesomeMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176658321C7EC30F001B12B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176658471C7EC310001B12B3 /* LaunchScreen.storyboard in Resources */,
+				1766585C1C7EC3D1001B12B3 /* Assets.xcassets in Resources */,
+				176658421C7EC30F001B12B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		176658301C7EC30F001B12B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176658571C7EC326001B12B3 /* AnimationTool.m in Sources */,
+				1766583F1C7EC30F001B12B3 /* ViewController.m in Sources */,
+				176658581C7EC326001B12B3 /* XAwesomeMenu.m in Sources */,
+				1766583C1C7EC30F001B12B3 /* AppDelegate.m in Sources */,
+				176658591C7EC326001B12B3 /* XMenuItem.m in Sources */,
+				1766585A1C7EC326001B12B3 /* XMenuUtility.m in Sources */,
+				176658391C7EC30F001B12B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		176658401C7EC30F001B12B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176658411C7EC30F001B12B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		176658451C7EC310001B12B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176658461C7EC310001B12B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		176658491C7EC310001B12B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1766584A1C7EC310001B12B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1766584C1C7EC310001B12B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XAwesomeMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weel.www.XAwesomeMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1766584D1C7EC310001B12B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XAwesomeMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weel.www.XAwesomeMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1766582F1C7EC30F001B12B3 /* Build configuration list for PBXProject "XAwesomeMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176658491C7EC310001B12B3 /* Debug */,
+				1766584A1C7EC310001B12B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1766584B1C7EC310001B12B3 /* Build configuration list for PBXNativeTarget "XAwesomeMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1766584C1C7EC310001B12B3 /* Debug */,
+				1766584D1C7EC310001B12B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1766582C1C7EC30F001B12B3 /* Project object */;
+}
